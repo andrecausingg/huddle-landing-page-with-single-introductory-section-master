@@ -1,0 +1,61 @@
+
+/* Mobile and Tablet  640px */
+@media only screen and (max-width:1199px){
+    br{
+        display: none;
+    }
+
+    .img-illu-mockups{
+        width: 100% !important;
+        height: auto !important;
+    }
+}
+
+
+
+/* Desktop 641px */
+@media only screen and (min-width: 1200px)  {
+    body{
+        background-image: url(../images/bg-desktop.svg) !important;
+        background-size: cover !important;
+    }
+
+    .header{
+        margin-right: 75px;
+        margin-left: 80px;
+    }
+
+    .logo{
+        width: 202px;
+        height: 65px;
+    }
+
+    .section{
+        display: flex;
+    }
+
+    .section img{
+        width: 695px;
+        height: 494px;
+    }
+
+    .content{
+        text-align: left;
+        margin-left: 56px;
+    }
+
+    .content h2{ 
+        font-size: 36px;
+    }
+
+    .content p{ 
+        font-size: 18px;
+    }
+
+    .social-media{
+        position: absolute;
+        bottom: 0;
+        right: 75px;
+    }
+    
+}

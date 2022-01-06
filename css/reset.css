@@ -1,0 +1,27 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+  
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+  
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    background-color: hsl(257, 40%, 49%); /* Violet */
+    font-weight: 400;
+    color: white;
+    background-image: url(../images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
