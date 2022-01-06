@@ -31,6 +31,13 @@
     padding: 15px 75px;
     color: hsl(257, 40%, 49%);
     background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
 }
 
 .social-media i{
