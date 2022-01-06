@@ -48,3 +48,10 @@
 }
 
 .attribution a { color: white; }
+
+.footer{
+    position: inherit;
+    margin: auto auto;
+    bottom: 0;
+    text-align: center;
+}
