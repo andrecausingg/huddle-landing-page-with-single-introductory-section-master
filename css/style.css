@@ -47,6 +47,11 @@
     margin-left: 10px;
 }
 
+.social-media i:hover{
+    cursor: pointer;
+    color: hsl(300, 69%, 71%);
+}
+
 .attribution a { color: white; }
 
 .footer{
